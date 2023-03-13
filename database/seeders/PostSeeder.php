@@ -20,5 +20,11 @@ class PostSeeder extends Seeder
             'funfact'=> 'Gak suka pedes'         
         ]);
         
+        DB::table('posts')->insert([
+            'nama'=> 'Aulia Cahya Briliana',
+            'pendidikan'=> 'Mahasiswa Polinema',
+            'asal'=> 'AG juga',
+            'funfact'=> 'Suka Haechan'         
+        ]);
     }
 }
