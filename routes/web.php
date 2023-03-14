@@ -23,4 +23,5 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 Route::get('/homee', [App\Http\Controllers\HomeeController::class, 'homee'])->name('homee');
 Route::get('/profile/{name}', [App\Http\Controllers\ProfileController::class, 'profile']);
+Route::get('/student/{id}', [App\Http\Controllers\PostController::class, 'index'])->name('student');
 Route::get('/kuliah', [App\Http\Controllers\KuliahController::class, 'kuliah'])->name('kuliah');

@@ -341,11 +341,11 @@ return [
             'submenu' => [
                 [
                     'text' => 'Aulia Cahya Briliana',
-                    'url'  => 'profile/aulia',
+                    'url'  => 'student/3',
                 ],
                 [
                     'text' => 'Yofandra Arta Priyoga',
-                    'url'  => 'profile/yofandra',
+                    'url'  => 'student/1',
                 ],
             ],
         ],
